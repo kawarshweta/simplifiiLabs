@@ -63,6 +63,7 @@ img.logo-image{
     display: flex;
     font-size: 20px;
     font-weight: 200;
+    margin-bottom: 35px;
 }
 .username, .password, .button-login, .button-otp{
     justify-content: center;
@@ -86,6 +87,7 @@ input{
     border: none;
     background-color: #80808003;
     margin-left: 15px;
+    font-size: 11px;
 }
 .hr-line{
     border-top: 2px solid orange;
@@ -112,6 +114,7 @@ svg{
 .button-otp button{
     background-color: #80808003;
     color: black;
+    font-size: 12px;
 }
 p.text{
     justify-content: center;
@@ -119,7 +122,7 @@ p.text{
     display: flex;
     margin-top: 15px;
     color: gray;
-    font-size: 15px;
+    font-size: 12px;
 }
 p.text.text2{
     margin-bottom: -12px;
