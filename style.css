@@ -1,0 +1,228 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+.column-1{
+    background-color: #252B3B;
+    width: 50%;
+}
+.top-section{
+    display: flex;
+    padding: 80px;
+    cursor: pointer;
+}
+.top-section h1{
+    color: #ffff;
+    font-size: 10px;
+    font-weight: 100;
+    padding: 2px;
+    margin-left: 10px;
+}
+svg.arrow{
+    fill: aliceblue;
+}
+
+.column-2{
+    background-color: #ffff;
+    width: 50%;
+}
+.bg-image{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.bg-image .image{
+    position: absolute;
+    bottom: 10%;
+    width: 50%;
+    /* height: 300px; */
+    object-fit: cover;
+    object-position: bottom;
+}
+img.logo-image{
+    width: 150px;
+    padding-top: 50px;
+}
+.logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.heading{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: 200;
+}
+.username, .password, .button-login, .button-otp{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    border-radius: 50px;
+    width: 50%;
+    margin: auto;
+    background-color: #8080802e;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.button-login{
+    cursor: pointer;
+}
+input{
+    outline: none;
+}
+.username-input, .password-input{
+    border: none;
+    background-color: #80808003;
+    margin-left: 15px;
+}
+.hr-line{
+    border-top: 2px solid orange;
+    width: 45%;
+    margin: auto;
+}
+svg{
+    height: 15px;
+}
+.section-right p{
+    color: gray;
+    font-family: monospace;
+}
+.button-login{
+    background-color: #EC9324;
+}
+.button-login button, .button-otp button{
+    background: #EC9324;
+    border: none;
+    margin: auto;
+    color: #ffff;
+    font-size: 14px;
+}
+.button-otp button{
+    background-color: #80808003;
+    color: black;
+}
+p.text{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+    color: gray;
+    font-size: 15px;
+}
+p.text.text2{
+    margin-bottom: -12px;
+}
+.signin-google, .signin-linkedin{
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    background: #1E88E5;
+    border-radius: 3px;
+}
+.signin-google img, .signin-linkedin img{
+    height: 38px;
+    padding: 1px;
+}
+.signin-linkedin img{
+    background: #fff;
+    height: 25px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+.signin-google button, .signin-linkedin button{
+    background-color: #1E88E5;
+    border: none;
+    color: #ffff;
+    padding: 10px;
+}
+.signin-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.signin-google{
+    margin-right: 15px;
+}
+.signin-linkedin{
+    margin-left: 15px;
+}
+
+.password{
+    justify-content: space-between;
+}
+svg{
+    fill: darkgray;
+}
+@media (max-width: 768px){
+    .container{
+        background: url("./img/about-us (1).png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    .column-1{
+        display: none;
+    }
+    .column-2{
+        margin: auto;
+    }
+    .username, .password, .button-login, .button-otp{
+        width: 90%;
+    }
+    .section-left{
+        display: flex;
+    }
+    .signin-google button, .signin-linkedin button{
+        width: 135px;
+    }
+    .column-2{
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 2px 12px 15px #999;
+    }
+}
+
+@media (max-width: 648px){
+    .column-2{
+        width: 300px;
+    }
+    .signin-linkedin{
+        width: 177px;
+        margin: auto;
+        margin-top: 11px;
+    }
+    .signin-google{
+        margin: auto;
+    }
+    .signin-buttons{
+        display: contents;
+    }
+    p.text.text1{
+        margin-bottom: 20px;
+    }
+    img.logo-image{
+        padding-top: 10px;
+    }
+    .hr-line{
+        width: 80%;
+    }
+}
+@media (min-width: 768px) and (max-width:1024px) {
+    .bg-image .image{
+        bottom: 30%;
+    }
+}
